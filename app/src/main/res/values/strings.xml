@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RegisterApp</string>
+    <string name="button_name_text">Name</string>
+    <string name="button_birthday_text">Birthday</string>
+    <string name="button_aboutme_text">about me</string>
+    <string name="button_register_text">Register</string>
+    <string name="button_cancel_text">cancel</string>
+    <string name="button_done_text">done</string>
+    <string name="button_closeapp_text">Close App</string>
+</resources>
