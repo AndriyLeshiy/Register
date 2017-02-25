@@ -14,9 +14,16 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images"/>
     <Button
         android:id="@+id/btn_start_activity_name"
         android:layout_width="wrap_content"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="@string/button_name_text" />
 
@@ -24,11 +31,13 @@
         android:id="@+id/btn_start_activity_birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/button_birthday_text" />
 
     <Button
         android:id="@+id/btn_start_activity_aboutme"
         android:layout_width="wrap_content"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="@string/button_aboutme_text" />
     </LinearLayout>
